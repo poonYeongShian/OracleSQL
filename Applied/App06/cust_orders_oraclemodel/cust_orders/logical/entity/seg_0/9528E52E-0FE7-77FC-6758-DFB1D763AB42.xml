@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9528E52E-0FE7-77FC-6758-DFB1D763AB42" name="CUSTOMER">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:09 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cust_no" id="9B228596-A6C8-09EB-2CFC-DE875EEB8DAB">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer number]]></commentInRDBMS>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_name" id="963A11A5-F8EB-F4F7-B835-5E3ADF0F846D">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:44 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_address" id="89FF3C5A-C024-B671-D2BC-0CE3F06E5DFA">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:44 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_phone" id="0BD27273-16F7-9F00-5B88-CFB9CA60FA06">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:45 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_level" id="E225E433-0DE8-83AF-B8A9-7C185CDB95E8">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:23:45 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<constraintName>chk_level</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="silver"/>
+<valueDef value="G" description="gold"/>
+<valueDef value="S" description="bronze"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="396AA1AF-8E7F-A6A5-05FC-E3B45C9A01E1" name="CUSTOMER PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 01:25:15 UTC</createdTime>
+<ownerDesignName>cust_orders</ownerDesignName>
+<engineerTo>
+<item key="5D87DD93-15A9-9B02-7B8C-08F35470B48E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B228596-A6C8-09EB-2CFC-DE875EEB8DAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

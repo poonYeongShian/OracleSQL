@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11EB274B-5107-B0C6-FDDE-C9C3514AB9AA" name="ORDERLINE">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>6EAFC061-307F-4FA0-6F6C-AAFBB37A3083</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderline_id" id="080C921B-044B-C414-3ACC-8999EFE46C2D">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>CEBFFE26-05A2-F6F7-18A6-9CD8C85E8431</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_no" id="B86FAA2D-68C7-BB15-C208-C20FA84DFE66">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>F416EBE5-20C9-02FC-6B90-86E11F1B1DB1</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E9638AE-8071-E90B-3E78-F5EB08AEFFB4" referredColumn="F97703B4-3FCF-2AA0-FE8A-58C709839784"/>
+</associations>
+</Column>
+<Column name="prod_no" id="D7AF3F97-EEDF-7DAA-74B1-D90F5F1B5397">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>FB6A142E-67B8-04C7-9A88-C53770CB8C4F</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FD5E431-33F6-F58E-25B6-EAC735628F42" referredColumn="45F22EDA-7CCB-72FB-2E22-3A4B390A60E0"/>
+</associations>
+</Column>
+<Column name="ol_lineprice" id="C1D4B6C1-27BB-A90B-F8D7-175255D7408F">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>87D9ED31-AFDB-D9D7-AAA2-EE3979CB081E</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ol_qtyordered" id="0DA9BE47-5F84-89DC-AB27-2D20C5D572A2">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>0370843E-8BCF-8A82-8FE0-0D5572A8345D</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="239F695D-23FB-E182-C28D-937065974465" name="ORDERLINE_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>F3E19B9B-657F-CB34-AE54-FECC1736E73A</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="080C921B-044B-C414-3ACC-8999EFE46C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55388A84-4D62-09CD-77C7-19336BB7F45D" name="ORDERLINE_NK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>2C9FC40E-F96A-E4A6-5F37-F1949C3916C5</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B86FAA2D-68C7-BB15-C208-C20FA84DFE66"/>
+<colUsage columnID="D7AF3F97-EEDF-7DAA-74B1-D90F5F1B5397"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F78471-7AD2-A938-315B-8C8D926FA228" name="Relation_2">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>74130E1E-851C-2CC9-8830-C5CB624F04B5</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B86FAA2D-68C7-BB15-C208-C20FA84DFE66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C425C9C0-3190-28F6-DE90-6E6553C856F6" name="Relation_5">
+<createdBy>User</createdBy>
+<createdTime>2022-04-04 02:22:02 UTC</createdTime>
+<generatorID>636B0013-2C0A-478A-4E2C-F67A8C18EB7E</generatorID>
+<ownerDesignName>cust_orders</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7AF3F97-EEDF-7DAA-74B1-D90F5F1B5397"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

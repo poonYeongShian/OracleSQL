@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4925CDC-8FCE-DDB6-F726-A86A1C4EECE2" name="COUNTRY">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>37FC4A30-8D99-D1EA-EC53-6BC4DD03D331</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_code" id="BEA8309A-E5E0-F837-541E-84211202A5D5">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[country code]]></commentInRDBMS>
+<generatorID>D41DF9BC-B10C-5303-86BF-8CEC32829F8A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="A1DF3FC9-C96B-E2A8-FE70-3B741CD7B98A">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[country name]]></commentInRDBMS>
+<generatorID>A95C8C9E-8941-5D7C-A1BC-586ADAB4BED3</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="769919E9-B4DB-96B8-EAC6-A816E084252F" name="Country_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>18C79D5B-F417-BE27-25CD-1C8AD3764DE4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA8309A-E5E0-F837-541E-84211202A5D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

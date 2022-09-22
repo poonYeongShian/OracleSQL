@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5784FD13-9839-C2D2-F7BA-0897BEC51211" name="TOUR">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>4F7ECB08-C8EA-5F0F-07CF-0A7841B81B9B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tour_no" id="7EBE602E-1117-5015-A403-CA51A47D7657">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour number ]]></commentInRDBMS>
+<generatorID>40514A9B-1D61-4270-7C2E-6680B8D17E61</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_name" id="3B35C8D1-D0C9-A6DE-BC5B-2362E267CFE5">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour name]]></commentInRDBMS>
+<generatorID>674BCB23-E4C7-D3E0-6266-7CA8FFCE150B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_desc" id="74C73834-C353-6D2E-C8D2-B7DB2A663D55">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour description]]></commentInRDBMS>
+<generatorID>08318A42-DF7B-5052-BD04-74296B9C1ABF</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_hour" id="2AA5B86A-B1AB-729B-CD11-9B50BADEB5E9">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>E1A7769E-0804-23A6-462A-44053BDD3806</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_cost" id="5C596C26-3BA1-FD66-D341-46C0FBD84291">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour cost]]></commentInRDBMS>
+<generatorID>3918201D-4A23-01CD-B7A3-54E38B1E91C9</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_min_pass" id="889DF19B-7BDF-098D-E9C9-C96783F63715">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[minimum number of passenger]]></commentInRDBMS>
+<generatorID>FD83D791-D3A4-A3C9-B6CE-F872B9643998</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_wchair" id="E2F425D3-DE50-C31E-3246-DD8849B9AB4C">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour wheel chair]]></commentInRDBMS>
+<generatorID>CB14BCDB-2C7F-F662-510B-772D8CD260AF</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_tourwchair</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="no"/>
+<valueDef value="Y" description="yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_avail" id="D21005FF-77E8-B3D9-89BE-F2CE735CA0A8">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour available]]></commentInRDBMS>
+<generatorID>94F8907A-4BB2-5C6E-5B82-FE5512505574</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_touravailability</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="DAI" description="daily"/>
+<valueDef value="FRI" description="friday"/>
+<valueDef value="MON" description="monday"/>
+<valueDef value="SAT" description="saturday"/>
+<valueDef value="SUN" description="sunday"/>
+<valueDef value="THU" description="thursday"/>
+<valueDef value="TUE" description="tuesday"/>
+<valueDef value="WED" description="wednesday"/>
+<valueDef value="WKD" description="weekdays"/>
+<valueDef value="WKE" description="weekends"/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90A2C2F4-FB30-DB8C-1539-180BB23748DC" name="TOUR_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>CFF5DE06-40D1-44CC-058B-DBF6E82F656F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EBE602E-1117-5015-A403-CA51A47D7657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

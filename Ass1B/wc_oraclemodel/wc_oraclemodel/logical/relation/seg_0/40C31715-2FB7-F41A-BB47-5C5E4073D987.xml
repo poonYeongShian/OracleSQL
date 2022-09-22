@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cabin_ship" directorySegmentName="seg_0" id="40C31715-2FB7-F41A-BB47-5C5E4073D987">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 06:38:06 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<sourcePk>30AC2F22-2F2B-178F-3F97-45B79E2265F4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B522DDEF-F3B0-0F5F-947A-79A1E8E978AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11F7EFE2-5890-BE4C-9A1E-BB923417A3B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2211F25-AD08-E066-2A0A-5F0D4E58AA00" name="CRUISE">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>A9CBAADB-3C93-A17A-EAFB-1AEB6C359CF1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cruise_id" id="8A4291F3-13AF-FE4E-4CF5-179FBC8BAC67">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>B7CBAF80-FFF4-AEC2-1554-FB93FA6D6333</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_name" id="251F5649-39DF-8A68-0358-31EA54ADD3D0">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise name]]></commentInRDBMS>
+<generatorID>74E53C9F-9393-358E-3BE3-86C642502597</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_desc" id="F721D858-ABB1-04ED-00D6-CAC3A16298EF">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise description]]></commentInRDBMS>
+<generatorID>84579981-E606-A4DE-1FE0-D97A5233C40F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_code" id="536C0045-031F-4CF1-EC9A-DD1AF4428638">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>4E3631BD-80EC-2797-DD69-82C368E9AC30</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19572A06-BF1E-3A48-1517-D8CEE2FBD3CA" referredColumn="5B347B71-86E1-37AD-E941-568B5FDB181F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2CC9BF4-8EB6-62F6-493C-B92166412ECD" name="CRUISE_PORT_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>B61124BA-0F8A-783A-5260-0FBAC97A8202</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4291F3-13AF-FE4E-4CF5-179FBC8BAC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5660EC63-2C44-3E69-6249-91F2BAE11388" name="SHIP_CRUISE">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>F125691E-C0FD-2919-14F6-699D5AFAB1DC</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="536C0045-031F-4CF1-EC9A-DD1AF4428638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

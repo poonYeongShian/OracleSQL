@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PORT_TEMPERATURE" directorySegmentName="seg_0" id="A860AD72-B0C4-DDAE-7B56-27A327C9CB36">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 07:34:19 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<sourcePk>5A35B002-E061-E92E-6131-CA1108107250</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA817FB0-2495-540F-DA86-B78774741B1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12A86705-AA64-043F-0BC8-F9FC4EAEA5DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2473D92-00F5-EEC4-268F-00BB5515CB40" name="MANIFEST">
+<createdBy>username</createdBy>
+<createdTime>2022-04-22 08:44:01 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cabin_class" id="F783ACD3-DCE9-FE36-FAED-AF2D97BFEE25">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 06:35:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
+<generatorID>CDEDC588-A203-FE4A-18BE-1228A5E434ED</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<referedAttribute>038B5AD8-174B-B356-3992-C0E3D416D3F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="851C7F7A-742E-C9F6-69FC-FD332A0D67C1">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 07:59:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>B20AB8F6-557D-E7F4-4C9E-029AD5A4E648</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<referedAttribute>B7CBAF80-FFF4-AEC2-1554-FB93FA6D6333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manifest_id" id="1575E586-34C9-3A6E-075D-80E88FCF8478">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 08:23:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pass_id" id="84784251-FA60-0924-E5CC-2B379A3AC24A">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 08:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger ID]]></commentInRDBMS>
+<generatorID>128F62B4-ABBF-1CA7-985C-379CF461AC53</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<referedAttribute>B042C6C7-295E-03E0-E1A0-2751996C2B7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BDA6ABD-8106-61BA-CB0C-397B31345775" name="MANIFEST_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-22 08:44:11 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1575E586-34C9-3A6E-075D-80E88FCF8478</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A582D7E3-F5EC-E83B-1F55-5CEEE7DBC525" name="manifest_nk">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 08:23:55 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="false"/>
+</engineerTo>
+<newElementsIDs>CDEDC588-A203-FE4A-18BE-1228A5E434ED,B20AB8F6-557D-E7F4-4C9E-029AD5A4E648</newElementsIDs>
+<usedAttributes>
+<attributeRef>F783ACD3-DCE9-FE36-FAED-AF2D97BFEE25</attributeRef>
+<attributeRef>851C7F7A-742E-C9F6-69FC-FD332A0D67C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

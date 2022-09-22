@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A71647-498F-4FBB-0535-BD2ED0B95286" name="TEMPERATURE">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>12A86705-AA64-043F-0BC8-F9FC4EAEA5DA</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="temp_month" id="0C30515E-0737-7089-47F6-826F4BAB8945">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[monthly average temperature]]></commentInRDBMS>
+<generatorID>8FEF8A52-CD90-9879-765F-1B389B24C07B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="B40CB9C8-B0CD-250D-DACE-5FF15A20A691">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>66EAFF85-837F-D426-EE50-0A6FF465E4A1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="692A93FA-A2C6-48CD-6479-3FDF0BB59032" referredColumn="BEAB0735-3A93-A647-0291-29E894605EAF"/>
+</associations>
+</Column>
+<Column name="temp_low" id="088992F4-7330-662E-2B5D-284A5535C333">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[average low temperature]]></commentInRDBMS>
+<generatorID>BD3FC894-9310-1597-0AEF-951522FC9CD0</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temp_high" id="EBADE59C-1844-8495-E98E-AFB63F2E2591">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[average high temperature]]></commentInRDBMS>
+<generatorID>BCCDE936-F64F-D686-BDD3-DBB2867567C4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ADE24B2-F766-8D34-BB12-4951A6B734D6" name="TEMPERATURE_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>F4CE9C3E-5FD1-0248-0FFD-AF08A94B9AE1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C30515E-0737-7089-47F6-826F4BAB8945"/>
+<colUsage columnID="B40CB9C8-B0CD-250D-DACE-5FF15A20A691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C76B74A1-E8AC-4E10-7C3A-1BC01B73B88F" name="PORT_TEMPERATURE">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>A860AD72-B0C4-DDAE-7B56-27A327C9CB36</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40CB9C8-B0CD-250D-DACE-5FF15A20A691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

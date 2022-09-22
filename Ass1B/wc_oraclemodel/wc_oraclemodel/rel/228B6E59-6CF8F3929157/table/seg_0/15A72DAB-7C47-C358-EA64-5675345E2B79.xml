@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15A72DAB-7C47-C358-EA64-5675345E2B79" name="MANIFEST">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>E2473D92-00F5-EEC4-268F-00BB5515CB40</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cabin_class" id="12CD2FD8-F59B-2AF0-BE96-EB71E67BBEC6">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
+<generatorID>F783ACD3-DCE9-FE36-FAED-AF2D97BFEE25</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A1E57CA-35C1-03D2-5F81-6B1657663DA8" referredColumn="32CC167A-24C8-1118-CB61-40E5CE5DBCB0"/>
+</associations>
+</Column>
+<Column name="cruise_id" id="7B029502-90F0-0EBC-2A7B-3D9AF22C9D61">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>851C7F7A-742E-C9F6-69FC-FD332A0D67C1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26944D42-EAD0-5F41-EF67-9204CCD42290" referredColumn="8A4291F3-13AF-FE4E-4CF5-179FBC8BAC67"/>
+</associations>
+</Column>
+<Column name="manifest_id" id="F8064099-DD57-98BD-EE1A-42DD05D1755C">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<generatorID>1575E586-34C9-3A6E-075D-80E88FCF8478</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass_id" id="0064DAEC-35E5-C187-4C9C-4478EADE544F">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger ID]]></commentInRDBMS>
+<generatorID>84784251-FA60-0924-E5CC-2B379A3AC24A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D79E1B-9536-D5E7-EAFD-48B66842C355" referredColumn="34B0C7BB-52F6-16AF-6D35-D0358624C0F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E7815DC-5ECF-CC67-1849-670B1E93D2D8" name="MANIFEST_PK">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>0BDA6ABD-8106-61BA-CB0C-397B31345775</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8064099-DD57-98BD-EE1A-42DD05D1755C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="327A250B-5811-45B4-5FCD-22AEB8BCAAFC" name="manifest_nk">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>A582D7E3-F5EC-E83B-1F55-5CEEE7DBC525</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12CD2FD8-F59B-2AF0-BE96-EB71E67BBEC6"/>
+<colUsage columnID="7B029502-90F0-0EBC-2A7B-3D9AF22C9D61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2923FDD-7328-CB60-8BC6-8D5D652BB202" name="manifest_cabin">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>CDEDC588-A203-FE4A-18BE-1228A5E434ED</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12CD2FD8-F59B-2AF0-BE96-EB71E67BBEC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25912640-2EB6-11CB-ED3C-A58A1C653C3A" name="MANIFEST_CRUISE">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>B20AB8F6-557D-E7F4-4C9E-029AD5A4E648</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B029502-90F0-0EBC-2A7B-3D9AF22C9D61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE36B00E-144B-E4AE-FB58-0D5FD51D30CD" name="Relation_24">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>128F62B4-ABBF-1CA7-985C-379CF461AC53</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0064DAEC-35E5-C187-4C9C-4478EADE544F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

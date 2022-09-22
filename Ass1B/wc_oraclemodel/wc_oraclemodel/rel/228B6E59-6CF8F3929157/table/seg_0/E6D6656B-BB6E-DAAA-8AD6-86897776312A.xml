@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D6656B-BB6E-DAAA-8AD6-86897776312A" name="CRUISE_PORT">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>B7FFCC8B-7CA6-38A4-B980-26A5F3FD22EB</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cp_id" id="149A99EA-D197-C8D1-BC91-9F3A87EF9EFF">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise port id]]></commentInRDBMS>
+<generatorID>7BE1C4BF-8F75-EFD1-8EA8-4B10EA3A87DA</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_port_arrival_time" id="BFE0C293-D30E-C215-CA34-A6479958DE94">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Arrival time]]></commentInRDBMS>
+<generatorID>3C124F0E-E4E5-422D-4CDC-F60AEDEF8B53</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_id" id="F46FE9F4-D9B9-4221-209A-6DEF21500142">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>4B49416A-0B97-DC07-8081-2A1F28C56C30</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4193DB38-34D1-C09F-A924-1CCF67D91823" referredColumn="8A4291F3-13AF-FE4E-4CF5-179FBC8BAC67"/>
+</associations>
+</Column>
+<Column name="port_code" id="0778FBAC-C8CE-5842-CAAD-1B6AA9F3C5ED">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>83A81F2D-2F58-F294-D22B-C445776BC909</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D771835-5AE2-06B6-E631-36F95EB1B31A" referredColumn="BEAB0735-3A93-A647-0291-29E894605EAF"/>
+</associations>
+</Column>
+<Column name="cruise_port_departure_time" id="128EA371-F6BD-4B61-967B-8CE396CD012F">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Departure time]]></commentInRDBMS>
+<generatorID>CB986CA6-8235-3CF1-CD98-AE75F9C73AC3</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF2BC85A-7E6D-BB3D-8F7E-A91B6B74D05B" name="CRUISE_PORT_PKv1">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>2C291374-B2C4-190C-9775-33495D572C53</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149A99EA-D197-C8D1-BC91-9F3A87EF9EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A86A53D-FFD6-BF5E-45B2-070164D7DF54" name="cruise_port_nk">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:27 UTC</createdTime>
+<generatorID>1C700BC6-C6F9-F005-1FAD-E3FF97015F5C</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFE0C293-D30E-C215-CA34-A6479958DE94"/>
+<colUsage columnID="0778FBAC-C8CE-5842-CAAD-1B6AA9F3C5ED"/>
+<colUsage columnID="F46FE9F4-D9B9-4221-209A-6DEF21500142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4695248C-3B6E-5C0E-3422-EAA7F92D7554" name="cruise_port_cruise">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>F546499C-1F88-59F2-FBBF-C6EA94C85D70</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F46FE9F4-D9B9-4221-209A-6DEF21500142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8D1B206-DAB4-7920-5083-E3921C753E40" name="cruise_port_port">
+<createdBy>username</createdBy>
+<createdTime>2022-04-23 10:30:28 UTC</createdTime>
+<generatorID>5F6F3161-EDC2-AF1A-D067-33E9F51B1963</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0778FBAC-C8CE-5842-CAAD-1B6AA9F3C5ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

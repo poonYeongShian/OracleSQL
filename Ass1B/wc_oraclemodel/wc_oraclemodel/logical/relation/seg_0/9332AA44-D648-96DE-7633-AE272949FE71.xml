@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASS_SPOUSE" directorySegmentName="seg_0" id="9332AA44-D648-96DE-7633-AE272949FE71">
+<createdBy>User</createdBy>
+<createdTime>2022-04-23 08:00:41 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="228B6E59-631D-C8CA-05D9-6CF8F3929157" value="true"/>
+</engineerTo>
+<targetPk>BEB8D882-3689-723E-9389-E2FE5CDCC258</targetPk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9573D5B4-970A-B1F7-9E45-5EC057B5130A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9573D5B4-970A-B1F7-9E45-5EC057B5130A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
